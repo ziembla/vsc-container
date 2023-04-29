@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../workbench"
+		},
+		{
+			"path": "../sidekick"
+		}
+	],
+	"settings": {
+		"window.title": "[ts] ${dirty}${activeEditorMedium}",
+		"workbench.tree.indent": 22,
+		"workbench.colorTheme": "Default Dark+",
+		"workbench.colorCustomizations": {
+			"activityBar.foreground": "#6fb5f7"
+		}
+	}
+}

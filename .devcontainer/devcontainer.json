@@ -1,0 +1,30 @@
+{
+	"name": "tsdev workbench",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { 
+			"VARIANT": "18-bullseye"
+		}
+	},
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"mhutchie.git-graph"
+			]
+		}
+	},
+
+	"runArgs": [
+		"--name", "tsdev-${localEnv:USER}"
+	],
+
+	"workspaceMount": "source=${localWorkspaceFolder},target=/tsdev/container,type=bind",
+	"workspaceFolder": "/tsdev/container",
+
+	"mounts": [
+		"source=${localWorkspaceFolder}/../workbench,target=/tsdev/workbench,type=bind",
+		"source=${localWorkspaceFolder}/../sidekick,target=/tsdev/sidekick,type=bind"
+	]
+}
