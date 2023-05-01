@@ -15,7 +15,19 @@
 		"workbench.tree.indent": 22,
 		"workbench.colorTheme": "Default Dark+",
 		"workbench.colorCustomizations": {
-			"activityBar.foreground": "#6fb5f7"
+			"activityBar.foreground": "#6fb5f7",
+			"statusBarItem.remoteBackground": "#6fb5f7",
+			"statusBar.background": "#2495ff",
+			"titleBar.activeBackground": "#0f579b",
+		},
+		// "explorer.excludeGitIgnore": true,
+		"files.exclude": {
+			"**/.git": false,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true
+		},
+		"search.exclude": {
+			"**/.git": true,
 		}
 	}
 }

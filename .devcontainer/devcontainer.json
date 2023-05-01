@@ -9,7 +9,7 @@
 
 	"customizations": {
 		"vscode": {
-			"extensions": [
+			"extensions": [ // INFO: forces installement, stronger than suggestion in extensions.js
 				"dbaeumer.vscode-eslint",
 				"mhutchie.git-graph"
 			]
