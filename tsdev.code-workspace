@@ -28,6 +28,28 @@
 		},
 		"search.exclude": {
 			"**/.git": true,
-		}
+		},
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "enviroment variable checker",
+				"type": "shell",
+				"command": "echo",
+				"args": [
+					// "[$HOME]"
+					// "[${defaultBuildTask}]"
+					"[${workspaceFolder}]"
+				],
+				"options": {
+					"cwd": "/"
+				},
+				"presentation": {
+					"reveal": "always"
+				},
+				"problemMatcher": []
+			}
+		]
 	}
 }
