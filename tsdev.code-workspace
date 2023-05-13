@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../sidekick"
+		},
+		{
+			"path": "../forked-vscode-markdown-todo"
 		}
 	],
 	"settings": {
