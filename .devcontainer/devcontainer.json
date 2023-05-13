@@ -25,7 +25,9 @@
 
 	"mounts": [
 		"source=${localWorkspaceFolder}/../workbench,target=/tsdev/workbench,type=bind",
+		"source=${localWorkspaceFolder}/../sample-data,target=/tsdev/sample-data,type=bind",
 		"source=${localWorkspaceFolder}/../sidekick,target=/tsdev/sidekick,type=bind",
+		"source=${localWorkspaceFolder}/../dater,target=/tsdev/dater,type=bind",
 		"source=${localWorkspaceFolder}/../forked-vscode-markdown-todo,target=/tsdev/forked-vscode-markdown-todo,type=bind"
 	]
 }

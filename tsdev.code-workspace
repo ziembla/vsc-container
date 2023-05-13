@@ -7,7 +7,13 @@
 			"path": "../workbench"
 		},
 		{
+			"path": "../sample-data"
+		},
+		{
 			"path": "../sidekick"
+		},
+		{
+			"path": "../dater"
 		},
 		{
 			"path": "../forked-vscode-markdown-todo"
